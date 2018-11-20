@@ -1,0 +1,23 @@
+live_loop :flibble do
+  sample :ambi_glass_hum, rate: 0.4, amp: 1
+  sleep 1
+end
+
+live_loop :base do
+  4.times do
+    sample :bd_zome, rate: 1, env_curve: 3, amp: 2
+    sample :perc_bell, rate: 1, amp: 0.2
+    sleep 1
+  end
+end
+
+
+live_loop :arm do
+  sample :ambi_swoosh, rate: 2, amp: 2
+  sleep 0.25
+end
+
+live_loop :base2 do
+  sample :sn_dub, rate: 1, amp: 0.2
+  sleep 0.5
+end
