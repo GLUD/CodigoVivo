@@ -1,0 +1,10 @@
+use_bpm 1000
+
+live_loop :improvisation do
+  use_random_seed 661
+  4.times do
+    sample :loop_amen, beat_stretch: 1, rate: [1, 1, 1, -1].choose / 2.0, finish: 0.5, amp: 0.5
+    sample :loop_amen, beat_stretch: 1
+    sleep 1
+  end
+end
