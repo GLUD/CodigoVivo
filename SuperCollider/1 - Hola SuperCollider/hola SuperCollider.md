@@ -130,6 +130,9 @@ c = a+b;
 
 ~~~
 
+>Puedes encontrar y ejecutar estos ejemplos abriendo el archivo  *intro_programacion.scd* en SuperCollider
+
+
 Referencias:
 
 [1] Página oficial de SuperCollider. https://supercollider.github.io/
