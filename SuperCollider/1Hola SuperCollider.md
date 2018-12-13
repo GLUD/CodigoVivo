@@ -1,11 +1,11 @@
-#HOLA SUPERCOLLIDER
+# HOLA SUPERCOLLIDER
 SuperCollider es una plataforma para la síntesis de audio y la composición algorítmica, fue desarrollado por James McCartney y en 2002 fue liberado bajo la Licencia Pública General de GNU, es gratuito y está disponible para Windows, macOS y GNU/Linux.
 
->SuperCollider se encuentra disponible desde su página oficial https://supercollider.github.io/download
+> SuperCollider se encuentra disponible desde su página oficial https://supercollider.github.io/download
 
 SuperCollider está basado en Smalltalk, un lenguaje de programación orientado a objetos. 
 
-##Estructura de SuperCollider
+## Estructura de SuperCollider
 
 El ambiente de SuperCollider se divide en un servidor y un cliente que se comunican a través de OpenSound Control (OSC), que en pocas palabras es una versión aumentada y corregida del protocolo MIDI.
 
@@ -23,22 +23,22 @@ Es así como SuperCollider presenta tres componentes principales:
 
 **Scide**, un editor para sclang con un sistema de ayuda integrado.
 
-##Conceptos iniciales
+## Conceptos iniciales
 
 Antes de empezar, es necesario definir algunos conceptos que nos van a permitir comprender el funcionamiento de SuperCollider.
 
-###Lenguaje de Programación
+### Lenguaje de Programación
 Un lenguaje de programación es un conjunto de  símbolos y reglas utilizado para controlar el comportamiento físico y lógico de una máquina. Cada lenguaje tiene sus características específicas para lograr diferentes tareas por medio de algoritmos.
 
 Los lenguajes de programación pueden dividirse según su nivel de abstracción en: Lenguaje de máquina, Lenguaje de bajo nivel, Lenguaje de medio nivel y Lenguaje de alto nivel. SC es un lenguaje de programación de alto nivel. Es decir, que su nivel de abstracción es tan alto que tiene cosas muy similares al lenguaje hablado (en este caso el inglés) por lo cual es más fácil de aprender que uno de bajo nivel.
 
 También pueden dividirse según su paradigma de programación, es decir su enfoque o filosofía. Dependiendo de la situación, un paradigma resulta más apropiado que otro. Así, se dividen en: Lenguajes imperativos (Como C++ o BASIC) que dan órdenes a la computadora. Lenguaje funcional (como Lisp) que se basan en funciones matemáticas. Lenguajes lógicos (como Prolog) que utilizan métodos de procesamiento basados en el razonamiento formal. Por último tenemos los Lenguajes orientados a objetos (Como Smalltalk), que usa objetos y sus interacciones.
 
-###Un Objeto
+### Un Objeto
 Un Objeto es una abstración, una representación computacional que conjuga en un solo elemento datos y funciones. Los datos representan sus atributos o variables, y las funciones, su comportamiento. Los objetos se definen bajo una estructura de programación llamada clase, y la clase cuenta con un constructor para que permita instanciarlo.  Esto es importante porque *en SuperCollider todo es un objeto.* 
 
 
-##El ambiente de SuperCollider
+## El ambiente de SuperCollider
 
 SuperCollider está basado en Smalltalk, aunque tiene una sintaxis más flexible. Es un lenguaje de programación dinámico muy eficiente y expresivo. Como casi cualquier lenguaje de programación, supercollider permite evaluar expresiones matemáticas sencillas, definir variables tanto locales como globales, definir arreglos o escribir funciones. 
 
@@ -61,6 +61,7 @@ Para *ejecutar* el código en SuperCollider podemos pulsar Control + Enter en Wi
 ~~~
 
 ### Variables 
+
 ~~~
 
 // Definir Variables Locales
