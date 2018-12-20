@@ -138,3 +138,6 @@ Referencias:
 [1] Página oficial de SuperCollider. https://supercollider.github.io/
 
 [2] Taller de SuperCollider Básico. https://basicsupercollider.wordpress.com/clases/clase1/
+
+[3] Coursera. Cristian Bañuelos & Mauro Herrera. Composición algorítmica en Supercollider. Universidad Nacional Autónoma de México
+
